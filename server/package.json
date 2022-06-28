@@ -1,0 +1,31 @@
+{
+  "name": "mongo-server",
+  "version": "1.0.0",
+  "description": "server for mongodb api",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.ja",
+    "server": "nodemon index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "Volodymyr Sypko <vsypko.dev@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "google-auth-library": "^7.10.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
